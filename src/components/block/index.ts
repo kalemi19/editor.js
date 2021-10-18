@@ -196,7 +196,7 @@ export default class Block extends EventsDispatcher<BlockEvents> {
    *
    * @type {number}
    */
-  private readonly modificationDebounceTimer = 450;
+  private readonly modificationDebounceTimer = 0;
 
   /**
    * Is fired when DOM mutation has been happened
